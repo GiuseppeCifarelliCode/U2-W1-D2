@@ -385,7 +385,6 @@ footer {
   padding: 1em;
   text-align: center;
   font-size: 1.2rem;
-  position: relative;
 }
 
 @media screen and (min-width: 800px) {
@@ -405,42 +404,41 @@ footer i {
   border-radius: 10px;
   margin: 1%;
   background-color: #ffffff8c;
-  position: absolute;
+  position: fixed;
 }
 
 #plus {
-  top: 0;
+  bottom: 18%;
   right: -15px;
+  z-index: 3;
 }
 
 #calendar {
-  top: 75px;
+  bottom: 10%;
   right: -15px;
+  z-index: 3;
 }
 
 #goTop {
-  top: 150px;
+  bottom: 2%;
   right: -15px;
 }
 
 @media screen and (min-width: 700px) {
   #plus {
-    top: -2750px;
+    top: 2%;
     right: -15px;
     z-index: 3;
   }
   
   #calendar {
-    top: -2650px;
+    top: 10%;
     right: -15px;
     z-index: 3;
   }
 }
 
-#goTop {
-  top: 100px;
-  right: -15px;
-}
+
 @media screen and (min-width: 1200px) {
   header,
   main,
